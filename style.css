@@ -1,1 +1,47 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+tr:hover {
+    background-color: #949393;
+}
+.heading {
+    border-style: outset;
+}
+.heading-2 {
+    border-style: inset;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(36, 36, 36);
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  }
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+li a.active {
+    background-color: #521b1b;
+    color: white;
+  }
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.body {
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+  }
